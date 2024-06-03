@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyFirstApp</string>
+    <string name="Dev_Name">Santosh Bhandari</string>
+    <string name="Address">Kanakai Jhapa</string>
 </resources>
