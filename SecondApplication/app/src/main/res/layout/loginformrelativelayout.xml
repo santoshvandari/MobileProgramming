@@ -27,7 +27,7 @@
             android:layout_toRightOf="@+id/username"
             android:hint="Enter a Username"
             android:id="@+id/editusername"
-            android:padding="5sp" />
+            android:padding="10sp" />
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -47,7 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_toRightOf="@+id/password"
             android:hint="Enter a Password"
-            android:padding="5sp" />
+            android:padding="10sp" />
     </RelativeLayout>
     <Button
         android:layout_width="wrap_content"

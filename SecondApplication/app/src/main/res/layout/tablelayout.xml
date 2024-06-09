@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:shrinkColumns="0"
+    android:padding="10dp"
+    >
+
+    <TableRow>
+        <Button
+            android:text="Button 1"
+            android:textSize="10dp" />
+        <Button
+            android:text="Button 2"
+            android:textSize="10dp" />
+        <Button
+            android:text="Button 3"
+            android:textSize="10dp" />
+
+    </TableRow>
+    <TableRow>
+        <Button
+            android:text="Button 4"
+            android:textSize="10dp"
+            android:layout_span="2"
+            />
+        <Button
+            android:text="Button 5"
+            android:textSize="10dp"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text=" Helo World The quick brown fox juumps over the lazy dogs. Hello World"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:text=" Helo World"
+            android:textSize="20dp"
+            />
+    </TableRow>
+</TableLayout>
