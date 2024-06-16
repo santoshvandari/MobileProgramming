@@ -22,6 +22,7 @@
         <activity android:name=".EventHandeling" android:exported="true"/>
 
         <activity android:name=".Distribution" android:exported="true"/>
+        <activity android:name=".SumOfNumbers" android:exported="true"/>
 
 
 
