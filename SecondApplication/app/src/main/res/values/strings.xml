@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">SecondApplication</string>
+
+    <string-array name="courses">
+        <item>BBA</item>
+        <item>BCA</item>
+        <item>CSIT</item>
+        <item>BIM</item>
+    </string-array>
 </resources>
