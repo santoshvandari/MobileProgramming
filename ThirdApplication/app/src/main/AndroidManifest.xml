@@ -13,7 +13,8 @@
         android:theme="@style/Theme.ThirdApplication"
         tools:targetApi="31">
 
-
+        <activity android:name=".BCA" android:exported="true"/>
+        <activity android:name=".Second" android:exported="true"/>
     </application>
 
 </manifest>
