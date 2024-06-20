@@ -15,6 +15,8 @@
 
         <activity android:name=".BCA" android:exported="true"/>
         <activity android:name=".Second" android:exported="true"/>
+        <activity android:name=".Dashboard" android:exported="true"/>
+        <activity android:name=".Login" android:exported="true"/>
     </application>
 
 </manifest>
