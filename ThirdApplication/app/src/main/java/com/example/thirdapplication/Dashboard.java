@@ -16,14 +16,11 @@ public class Dashboard extends Activity {
 
 
 
-        Intent in = new Intent();
+        Intent in = getIntent();
         String name = in.getStringExtra("name");
         String address = in.getStringExtra("address");
 
-        Log.d("Name",name);
-        Log.d("address",address);
-
-        String result = "Name : "+name+"Address : "+address;
+        String result = "Name : "+name+"\nAddress : "+address;
         Log.d("Result ",result);
         txt.setText(result);
     }

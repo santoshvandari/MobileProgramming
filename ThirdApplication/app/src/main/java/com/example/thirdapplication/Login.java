@@ -20,12 +20,10 @@ public class Login extends Activity {
             String nm =String.valueOf(name.getText());
             String addr = address.getText().toString();
 
-            Log.d("debug",nm);
-            Log.d("debug",addr);
 
             Intent in = new Intent(this,Dashboard.class);
-            in.putExtra("name",""+nm);
-            in.putExtra("address",""+addr);
+            in.putExtra("name",nm);
+            in.putExtra("address",addr);
             startActivity(in);
         });
 
