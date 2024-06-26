@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Lab1</string>
+    <string-array name="courses">
+        <item>BCA</item>
+        <item>CSIT</item>
+        <item>BIM</item>
+        <item>BIT</item>
+    </string-array>
 </resources>
