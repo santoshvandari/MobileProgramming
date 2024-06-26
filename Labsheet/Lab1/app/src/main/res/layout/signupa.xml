@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:padding="20sp">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Registration Form"
-        android:gravity="center"
-        android:id="@+id/title"
+        android:textAlignment="center"
         android:textSize="30sp"/>
 
     <TextView
@@ -20,86 +16,76 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Name"
-        app:layout_constraintTop_toBottomOf="@+id/title"
+        android:layout_y="50sp"
         android:textSize="15sp" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/tname"
-        android:id="@+id/name"
+        android:layout_y="60sp"
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/name"
         android:text="Address"
-        android:id="@+id/taddress"
-        android:textSize="15sp" />
+        android:textSize="15sp"
+        android:layout_y="100sp"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/taddress"
-        android:id="@+id/address"
+        android:layout_y="110sp"
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/address"
         android:text="Email"
-        android:id="@+id/temail"
+        android:layout_y="150sp"
         android:textSize="15sp" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/temail"
-        android:id="@+id/email"
         android:inputType="textEmailAddress"
+        android:layout_y="160sp"
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/email"
         android:text="Phone"
-        android:id="@+id/tphone"
+        android:layout_y="200sp"
         android:textSize="15sp" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/tphone"
-        android:id="@+id/phone"
+        android:layout_y="210sp"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:layout_y="250sp"
+        android:textSize="15sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:inputType="number"
+        android:layout_y="260sp"
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/phone"
-        android:text="Age"
-        android:id="@+id/tage"
-        android:textSize="15sp" />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/tage"
-        android:id="@+id/age"
-        android:inputType="number"
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/age"
         android:text="Gender "
         android:textSize="15sp"
-        android:id="@+id/tgender"/>
+        android:layout_y="320sp"/>
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/tgender"
         android:orientation="horizontal"
-        android:id="@+id/gender"
+        android:layout_y="309sp"
+        android:layout_x="60sp"
         >
         <RadioButton
             android:layout_width="wrap_content"
@@ -115,50 +101,49 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/gender"
         android:text="Hobbies "
         android:textSize="15sp"
-        android:id="@+id/thobbies"/>
+        android:layout_y="360sp"
+        />
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Web Designing"
-        app:layout_constraintTop_toBottomOf="@+id/thobbies"
-        android:id="@+id/hobbies1"/>
+        android:layout_y="370sp"/>
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="App Development"
-        app:layout_constraintTop_toBottomOf="@+id/hobbies1"
-        android:id="@+id/hobbies2"/>
+        android:layout_y="390sp"/>
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="AI / Machine Learning"
-        app:layout_constraintTop_toBottomOf="@+id/hobbies2"
-        android:id="@+id/hobbies3"/>
+        android:layout_y="410sp"/>
 
 
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/hobbies3"
         android:text="Course "
         android:textSize="15sp"
-        android:id="@+id/tcourse"/>
+        android:layout_y="460sp"/>
     <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:entries="@array/courses"
-        app:layout_constraintTop_toBottomOf="@+id/tcourse"
-        android:id="@+id/course"/>
+        android:layout_y="480sp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="Submit"
-        app:layout_constraintTop_toBottomOf="@+id/course" />
+        android:layout_y="520sp"
+        android:layout_x="150sp"
+        android:id="@+id/btn"
+        />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</AbsoluteLayout>
