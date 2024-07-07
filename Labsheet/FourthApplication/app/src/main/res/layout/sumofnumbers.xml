@@ -20,4 +20,9 @@
         android:layout_height="wrap_content"
         android:text="Calculate"
         android:id="@+id/calc"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:id="@+id/res"/>
 </LinearLayout>
