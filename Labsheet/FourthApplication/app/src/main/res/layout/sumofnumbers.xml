@@ -8,7 +8,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter a Frist Number"
+        android:hint="Enter a First Number"
         android:id="@+id/num1"/>
     <EditText
         android:layout_width="match_parent"

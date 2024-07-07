@@ -2,6 +2,7 @@ package com.example.fourthapplication;
 
 import android.app.Fragment;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,14 +15,20 @@ public class SumOfNumbers extends Fragment {
         super.onCreateView(li,vg,b);
         View view = li.inflate(R.layout.sumofnumbers,vg,false);
 
-        EditText num1=view.findViewById(R.id.num1);
-        EditText num2=view.findViewById(R.id.num2);
+        EditText nu1=view.findViewById(R.id.num1);
+        EditText nu2=view.findViewById(R.id.num2);
         Button btn = view.findViewById(R.id.calc);
         TextView txt = view.findViewById(R.id.res);
         btn.setOnClickListener(e->{
-            int n1=Integer.parseInt(num1.toString());
-            int n2=Integer.parseInt(num2.toString());
-            txt.setText(String.valueOf(n1+n2));
+            try {
+                int n1 = Integer.parseInt(nu1.getText().toString());
+                int n2 = Integer.parseInt(nu2.getText().toString());
+
+                String res = String.valueOf(n1 + n2);
+                txt.setText(res);
+            }catch(Exception ex){
+                txt.setText("Invalid Numbers");
+            }
         });
         return view;
     }
