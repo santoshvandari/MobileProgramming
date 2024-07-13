@@ -16,6 +16,7 @@
         <activity android:name=".SignupL" android:exported="true"/>
         <activity android:name=".SignupC" android:exported="true"/>
         <activity android:name=".SignupA" android:exported="true"/>
+        <activity android:name=".SimpleInterest" android:exported="true"/>
 
     </application>
 
