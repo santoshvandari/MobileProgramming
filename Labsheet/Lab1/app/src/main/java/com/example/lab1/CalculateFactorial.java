@@ -14,9 +14,9 @@ public class CalculateFactorial extends Activity {
         findViewById(R.id.calculate).setOnClickListener(e->{
             int n=Integer.parseInt(num.getText().toString());
             if(n%2==0){
-                int fact=0;
+                int fact=1;
                 for(int i=1;i<=n;i++){
-                    fact+=i;
+                    fact*=i;
                 }
                 res.setText("Factorial : "+fact);
             }else{
