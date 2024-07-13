@@ -17,7 +17,7 @@ public class SimpleInterest extends Activity {
             int p=Integer.parseInt(pri.getText().toString());
             int r=Integer.parseInt(rate.getText().toString());
             int t=Integer.parseInt(time.getText().toString());
-            interest.setText("Interst : "+(p*t*r/100));
+            interest.setText("Interest : "+(p*t*r/100));
         });
 
     }
