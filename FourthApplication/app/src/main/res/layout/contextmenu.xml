@@ -6,9 +6,15 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Option Menu"
+        android:text="Context Menu"
         android:layout_gravity="center"
         android:textSize="30dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Me"
+        android:layout_gravity="center"
+        android:id="@+id/clickme"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

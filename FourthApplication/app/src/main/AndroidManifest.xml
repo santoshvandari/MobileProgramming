@@ -17,6 +17,7 @@
         <activity android:name=".CalculateActivity" android:exported="true"/>
         <activity android:name=".FragManager" android:exported="true"/>
         <activity android:name=".OptionMenu" android:exported="true"/>
+        <activity android:name=".ContextMenuDemo" android:exported="true"/>
 
     </application>
 
