@@ -20,6 +20,7 @@
 <!--        <activity android:name=".CalculateFactorial" android:exported="true"/>-->
 <!--        <activity android:name=".KeyEventHandeling" android:exported="true"/>-->
         <activity android:name=".SimpleCalculator" android:exported="true"/>
+        <activity android:name=".AndroidActivityLifeCycle" android:exported="true"/>
 
     </application>
 
