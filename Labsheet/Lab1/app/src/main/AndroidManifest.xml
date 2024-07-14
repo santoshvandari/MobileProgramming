@@ -19,8 +19,10 @@
 <!--        <activity android:name=".SimpleInterest" android:exported="true"/>-->
 <!--        <activity android:name=".CalculateFactorial" android:exported="true"/>-->
 <!--        <activity android:name=".KeyEventHandeling" android:exported="true"/>-->
-        <activity android:name=".SimpleCalculator" android:exported="true"/>
-        <activity android:name=".AndroidActivityLifeCycle" android:exported="true"/>
+<!--        <activity android:name=".SimpleCalculator" android:exported="true"/>-->
+<!--        <activity android:name=".AndroidActivityLifeCycle" android:exported="true"/>-->
+        <activity android:name=".DisplayInformationInAnotherActivityParent" android:exported="true"/>
+        <activity android:name=".DisplayInformationInAnotherActivityChild" android:exported="true"/>
 
     </application>
 
