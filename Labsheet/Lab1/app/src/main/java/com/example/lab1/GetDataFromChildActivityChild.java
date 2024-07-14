@@ -21,7 +21,7 @@ public class GetDataFromChildActivityChild  extends Activity {
             String a = age.getText().toString();
 
             Intent in = new Intent();
-            in.putExtra("name", b);
+            in.putExtra("name", n);
             in.putExtra("address", add);
             in.putExtra("age", a);
 

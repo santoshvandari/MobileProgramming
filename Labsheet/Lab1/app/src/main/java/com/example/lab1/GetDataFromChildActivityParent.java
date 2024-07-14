@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 public class GetDataFromChildActivityParent extends Activity {
-    TextView result
+    TextView result;
     protected void onCreate(Bundle b) {
         super.onCreate(b);
         setContentView(R.layout.getdatafromchildactivityparent);
