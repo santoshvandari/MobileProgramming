@@ -10,5 +10,10 @@
         android:layout_height="wrap_content"
         android:text="Click Me"
         android:id="@+id/btn"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt"
+        android:textSize="20dp"/>
 
 </LinearLayout>
