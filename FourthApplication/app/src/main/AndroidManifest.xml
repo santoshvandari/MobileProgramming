@@ -19,6 +19,7 @@
         <activity android:name=".OptionMenu" android:exported="true"/>
         <activity android:name=".ContextMenuDemo" android:exported="true"/>
         <activity android:name=".PopUpMenu" android:exported="true"/>
+        <activity android:name=".AlertDialogDemo1" android:exported="true"/>
 
     </application>
 
