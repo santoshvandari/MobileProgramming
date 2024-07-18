@@ -20,6 +20,7 @@
         <activity android:name=".ContextMenuDemo" android:exported="true"/>
         <activity android:name=".PopUpMenu" android:exported="true"/>
         <activity android:name=".AlertDialogDemo1" android:exported="true"/>
+        <activity android:name=".CustomDialog" android:exported="true"/>
 
     </application>
 
