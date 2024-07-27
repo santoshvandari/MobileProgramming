@@ -15,8 +15,7 @@
         android:id="@+id/tname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Name"
-        android:textSize="15sp" />
+        android:text="Name" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,8 +24,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Address"
-        android:textSize="15sp" />
+        android:text="Address"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,8 +33,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Email"
-        android:textSize="15sp" />
+        android:text="Email" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -46,8 +43,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Phone"
-        android:textSize="15sp" />
+        android:text="Phone"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -56,8 +52,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Age"
-        android:textSize="15sp" />
+        android:text="Age"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -67,8 +62,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Gender "
-        android:textSize="15sp" />
+        android:text="Gender "/>
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -88,9 +82,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hobbies "
-        android:textSize="15sp"
-        />
+        android:text="Hobbies " />
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -109,8 +101,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Course "
-        android:textSize="15sp"/>
+        android:text="Course "/>
     <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
