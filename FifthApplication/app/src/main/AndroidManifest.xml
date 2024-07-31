@@ -20,6 +20,7 @@
 
         <activity android:name=".List_View" android:exported="true"/>
         <activity android:name=".Grid_View" android:exported="true"/>
+        <activity android:name=".CustomListView" android:exported="true"/>
 
 
 

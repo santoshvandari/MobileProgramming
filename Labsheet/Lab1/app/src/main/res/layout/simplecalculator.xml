@@ -8,38 +8,23 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Number"
+        android:hint="Enter Number1"
         android:id="@+id/num1"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter a Number"
+        android:hint="Enter a Number2"
         android:id="@+id/num2"/>
-    <LinearLayout
+    <TableLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        >
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Add"
-        android:id="@+id/add" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="SUB"
-            android:id="@+id/sub"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Multiply"
-            android:id="@+id/mul"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Divide"
-            android:id="@+id/div"/>
-    </LinearLayout>
+        android:layout_height="wrap_content">
+        <TableRow>
+        <Button android:text="Add" android:id="@+id/add" />
+        <Button android:text="SUB" android:id="@+id/sub"/>
+        <Button android:text="Multiply" android:id="@+id/mul"/>
+        <Button android:text="Divide" android:id="@+id/div"/>
+        </TableRow>
+    </TableLayout>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
