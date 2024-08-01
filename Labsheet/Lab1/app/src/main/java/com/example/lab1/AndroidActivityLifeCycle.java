@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 public class AndroidActivityLifeCycle extends Activity {
-    private static final String TAG = "LifecycleDemo";
+    String TAG = "LifecycleDemo";
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.androidactivitylifecycle);
