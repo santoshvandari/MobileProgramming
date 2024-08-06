@@ -18,7 +18,7 @@ public class DBForm extends Activity {
         TextView txtres = findViewById(R.id.res);
 
         findViewById(R.id.insert).setOnClickListener(e->{
-            int sid = Integer.parseInt(id.getText().toString());
+            String sid = id.getText().toString();
             String sname=name.getText().toString();
             String saddress = address.getText().toString();
             helper.Insert(sid,sname,saddress);
