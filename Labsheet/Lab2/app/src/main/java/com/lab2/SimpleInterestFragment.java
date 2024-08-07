@@ -16,7 +16,10 @@ public class SimpleInterestFragment extends Fragment {
         EditText time = view.findViewById(R.id.time);
         TextView res = view.findViewById(R.id.res);
         view.findViewById(R.id.calc).setOnClickListener(e->{
-
+            int p = Integer.parseInt(pri.getText().toString());
+            int t = Integer.parseInt(rate.getText().toString());
+            int r = Integer.parseInt(time.getText().toString());
+            res.setText("Interst : "+(p*t*r/100));
         });
         return view;
     }

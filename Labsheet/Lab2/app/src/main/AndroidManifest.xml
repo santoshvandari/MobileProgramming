@@ -15,6 +15,8 @@
 
         <activity android:name=".FragmentActivity" android:exported="true"/>
         <activity android:name=".SimpleInterestFragmentActivity" android:exported="true"/>
+        <activity android:name=".OptionMenuActivity" android:exported="true"/>
+        <activity android:name=".ContextMenuActivity" android:exported="true"/>
 
 
     </application>
