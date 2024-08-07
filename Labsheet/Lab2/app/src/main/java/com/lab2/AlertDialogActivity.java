@@ -14,8 +14,7 @@ public class AlertDialogActivity extends Activity{
             builder.setMessage("Developed by BCA Student");
             builder.setPositiveButton("Ok",null);
             builder.setNegativeButton("Cancel",null);
-            AlertDialog dialog = builder.create();
-            dialog.show();
+            builder.create().show();
         });
     }
 }
