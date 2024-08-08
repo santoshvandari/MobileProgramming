@@ -2,6 +2,32 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    android:padding="20dp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rollno"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/address"/>
+    <TableLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <TableRow>
+            <Button android:id="@+id/insert" android:text="Insert"/>
+            <Button android:id="@+id/update" android:text="Update"/>
+            <Button android:id="@+id/delete" android:text="Delete"/>
+            <Button android:id="@+id/read" android:text="Read"/>
+        </TableRow>
+    </TableLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/result"/>
 </LinearLayout>
