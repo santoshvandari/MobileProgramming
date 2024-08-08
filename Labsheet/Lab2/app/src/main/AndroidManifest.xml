@@ -20,6 +20,9 @@
         <activity android:name=".PopupMenuActivity" android:exported="true"/>
         <activity android:name=".AlertDialogActivity" android:exported="true"/>
         <activity android:name=".CustomDialogActivity" android:exported="true"/>
+        <activity android:name=".ListViewActivity" android:exported="true"/>
+        <activity android:name=".GridViewActivity" android:exported="true"/>
+        <activity android:name=".RecyclerViewActivity" android:exported="true"/>
 
 
     </application>
