@@ -15,7 +15,7 @@ public class FragmentActivity extends Activity {
             getFragmentManager().beginTransaction().replace(R.id.fragment,frag).commit();
         });
 
-        findViewById(R.id.frag2).setOnClickListener(z->{
+        findViewById(R.id.frag2).setOnClickListener(e->{
             Fragment frag = new Fragment2();
             getFragmentManager().beginTransaction().replace(R.id.fragment,frag).commit();
         });

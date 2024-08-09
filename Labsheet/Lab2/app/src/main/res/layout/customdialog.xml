@@ -6,13 +6,11 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter a Length"
         android:id="@+id/len"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter a Breadth"
         android:id="@+id/bre"/>
 
     <Button

@@ -6,20 +6,17 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/principle"
-        android:hint="Enter a Principal"/>
+        android:id="@+id/principle"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/time"
-        android:hint="Enter a Time"/>
+        android:id="@+id/time"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/rate"
-        android:hint="Enter a Rate"/>
+        android:id="@+id/rate"/>
 
     <Button
         android:layout_width="wrap_content"
