@@ -1,14 +1,15 @@
-func findMaxEl(array: [Int]) -> Int{
-    var maxElement = array[0]
-    for element in array {
-        if element > maxElement {
-            maxElement = element
+// 16. Write a swift program to create an array and find maximum element.
+func maxEl(numbers: [Int]) -> Int{
+    var max = numbers[0];
+    for el in numbers {
+        if el > max {
+            max = el;
         }
     }
-    return maxElement
+    return max;
 }
 
 // Creating an array
-let numbers = [23, 45, 12, 67, 34, 89, 10]
+let numbers = [23, 45, 12, 67, 34, 89, 10];
 
-print("The maximum element in the array is:",(findMaxEl(array:numbers)))
+print("The Maximum Number in the array is:",(maxEl(numbers:numbers)));
