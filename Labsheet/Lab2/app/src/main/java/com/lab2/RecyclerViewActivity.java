@@ -14,15 +14,8 @@ public class RecyclerViewActivity extends Activity{
         String[] id={"1","2","3","4","5"};
         String[] name={"Hari","Ram","Sita","Geeta","Adi"};
         String[] address={"BTM","KTM","BRT","BDP","BTM"};
-
-
-
-
-
         RecyclerView view= findViewById(R.id.recyclerview);
         view.setLayoutManager(new LinearLayoutManager(this));
-
-
         RecyclerViewAdapter adapter = new RecyclerViewAdapter(this,id,name,address);
         view.setAdapter(adapter);
 
