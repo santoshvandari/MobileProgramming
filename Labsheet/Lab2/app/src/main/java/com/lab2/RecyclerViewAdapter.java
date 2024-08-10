@@ -22,7 +22,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     }
 
     public int getItemCount(){
-        return name.length;
+        return id.length;
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder{

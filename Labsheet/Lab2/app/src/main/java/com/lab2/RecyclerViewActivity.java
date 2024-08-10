@@ -10,7 +10,6 @@ public class RecyclerViewActivity extends Activity{
     protected void onCreate(Bundle b){
         super.onCreate(b);
         setContentView(R.layout.recyclerviewactivity);
-
         String[] id={"1","2","3","4","5"};
         String[] name={"Hari","Ram","Sita","Geeta","Adi"};
         String[] address={"BTM","KTM","BRT","BDP","BTM"};
