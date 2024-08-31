@@ -17,29 +17,20 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
         this.courses=courses;
         this.description=description;
     }
-
     public ViewHolder onCreateViewHolder(ViewGroup vg, int viewType){
         LayoutInflater li = LayoutInflater.from(context);
         View listItem = li.inflate(R.layout.recycleritem,vg,false);
         ViewHolder viewholder = new ViewHolder(listItem);
         return viewholder;
     }
-
-
-
     public void onBindViewHolder(ViewHolder holder, int position){
         holder.course.setText(courses[position]);
         holder.desc.setText(description[position]);
     }
-
-
-
-
     public int getItemCount(){
 
         return courses.length;
     }
-
     public static class ViewHolder extends  RecyclerView.ViewHolder{
         TextView course,desc;
         public ViewHolder(View itemview){
@@ -49,8 +40,4 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
 
         }
     }
-
-
-
-
 }

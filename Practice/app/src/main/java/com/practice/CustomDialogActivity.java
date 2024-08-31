@@ -1,12 +1,10 @@
 package com.practice;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-
 public class CustomDialogActivity extends Activity {
     protected void onCreate(Bundle b){
         super.onCreate(b);
@@ -29,5 +27,4 @@ public class CustomDialogActivity extends Activity {
             builder.create().show();
         });
     }
-
 }

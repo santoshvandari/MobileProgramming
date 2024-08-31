@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.os.Bundle;
 
 import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class Recycler_View extends Activity {
@@ -16,12 +15,8 @@ public class Recycler_View extends Activity {
         String[] desc={"Description1","Description2","Description3","Description4"};
 
         RecyclerView recyclerview = findViewById(R.id.recycler);
-
 //        For List
 //        recyclerview.setLayoutManager(new LinearLayoutManager(this));
-
-
-
 
 //        For Grid
         recyclerview.setLayoutManager(new GridLayoutManager(this,3));
@@ -29,5 +24,6 @@ public class Recycler_View extends Activity {
 
         RecyclerAdapter adapter = new RecyclerAdapter(this,courses,desc);
         recyclerview.setAdapter(adapter);
+
     }
 }
